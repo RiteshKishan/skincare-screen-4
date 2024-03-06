@@ -17,7 +17,7 @@ const PreviewInvoice = () => {
           <img src={preview_logo} alt="" />
         </div>
         <div className="preview-summary">
-          <p>SUMMERY</p>
+          <p className="summery-text">SUMMERY</p>
           <div className="preview-line"></div>
         </div>
         <div className="preview-name">

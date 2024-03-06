@@ -16,7 +16,7 @@
 .template-search {
   margin-top: 26px;
   display: flex;
-  gap: 140px;
+  gap: 128px;
   padding: 10px 15px;
   background-color: #f8f8f8;
   border-radius: 8px;
@@ -99,5 +99,8 @@
 @media screen and (max-width: 835px) {
     .template{
         width: 770px;
+    }
+    .template-search{
+      gap: 521px;
     }
 }
