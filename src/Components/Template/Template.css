@@ -1,0 +1,103 @@
+.template {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 377px;
+}
+.template-conatiner {
+    padding: 23px 28px;
+}
+.template-heading {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #4c4d4f;
+  display: flex;
+}
+.template-search {
+  margin-top: 26px;
+  display: flex;
+  gap: 140px;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+.template-search p {
+  font-size: 10px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #4c4d4f80;
+}
+.search_icons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.search_icons span {
+  height: 15px;
+  width: 0;
+  border: 0.5px solid #4c4d4f33;
+}
+.search-input-box {
+  display: flex;
+}
+.cross_icon-img {
+  margin-top: 24px;
+  margin-left: 22px;
+}
+.element-container {
+    display: flex;
+    gap: 9px;
+  margin-top: 26px;
+  flex-wrap: wrap;
+}
+.each_template {
+  height: 100px;
+  width: 154px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 0.5px solid #4c4d4f33;
+}
+.each_template img {
+  padding-top: 17px;
+}
+.each_template p {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #4c4d4f;
+}
+.template-signature p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000080;
+    display: flex;
+}
+.signature-input{
+    height: 100px;
+    width: 100%;
+    border: 0.5px solid #4C4D4F;
+    border-radius: 7px;
+    margin-top: 4px;
+}
+.template-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.template-button button{
+    background-color: #000000;
+    color: #ffffff;
+    height: 48px;
+    width: 184px;
+    border-radius: 24px;
+    border: none;
+}
+
+@media screen and (max-width: 835px) {
+    .template{
+        width: 770px;
+    }
+}
